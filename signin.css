@@ -1,0 +1,499 @@
+header {
+    top: 0;
+
+    width: 100%;
+    z-index: 2;
+    font-family: 'din-2014', sans-serif;
+}
+
+.nav-links-one a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #fff;
+    align-items: center;
+}
+
+.nav-links-two a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bolder;
+}
+
+.nav-links-two {
+    width: 100%;
+    color: red;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.searchbar input {
+    width: 27rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbar {
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.nav img {
+    height: 4rem;
+    margin-left: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+
+
+
+.signin {
+    margin-top: 2rem;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 537px;
+    margin: 0rem 0rem 10px 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.signup {
+    margin-top: 2rem;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    /* max-width: 537px; */
+    margin: 0rem 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.bttn {
+    width: 100%;
+    background-color: #e4531b;
+}
+
+.bttn:hover {
+    background-color: #b64316;
+}
+
+footer {
+    background-color: #1a1a1a;
+    height: 100%;
+
+}
+
+footer a,
+.address {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    line-height: 2rem;
+    color: white;
+}
+
+footer i {
+    display: none;
+}
+
+.contact {
+    margin-bottom: 5rem;
+}
+
+footer img {
+    width: 10rem;
+    margin-top: 2rem;
+    height: 80px;
+}
+
+.shopdeal {
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #1a1a1a;
+}
+
+.email {
+    margin-top: 20rem;
+    font-family: 'din-2014', sans-serif;
+    height: 100%;
+
+}
+
+.nav-links-two {
+    width: 100%;
+    color: red;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.form-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e4531b;
+    width: 6.4rem;
+    font-size: 15px;
+    height: 3rem;
+    font-weight: bolder;
+}
+
+.form-btn:hover {
+    background-color: #b64316;
+}
+
+.nav-links-two a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bolder;
+}
+
+.nav-links-two a:hover {
+    border-bottom: 2px solid brown;
+    border-radius: 2px;
+    color: brown;
+}
+
+.forms input[type="email"] {
+    border: 2.5px solid rgb(61, 8, 8);
+    width: 30rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.shopdealbtn {
+    color: #fff;
+    background-color: #1a1a1a;
+    justify-content: center;
+    padding: 1.25rem 1.5625rem;
+    margin: 0 auto;
+    width: fit-content;
+    width: fit-content;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+
+.cbtn {
+    background-color: rgb(255, 108, 51);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5rem;
+    right: 1.75rem;
+    z-index: 2;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    max-height: 24rem;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8.2px;
+    overflow-y: scroll;
+}
+
+.data {
+    display: flex;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'proxima-nova',
+        sans-serif;
+    ;
+    display: block;
+    left: 0;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text2 {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.policy img {
+    width: 110px;
+    height: 45.85px;
+    float: right;
+}
+
+.shopdeal {
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #1a1a1a;
+}
+
+.shopdealbtn {
+    color: #fff;
+    background-color: #1a1a1a;
+    justify-content: center;
+    padding: 1.25rem 1.5625rem;
+    margin: 0 auto;
+    width: fit-content;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.footer-adrs {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'proxima-nova', sans-serif;
+    width: 18rem;
+}
+
+
+.media-footer {
+    width: 14% !important;
+}
+
+.address img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    height: 48px;
+    width: 210px;
+    margin-bottom: 33px;
+}
+
+.address {
+    width: 14.5rem;
+    color: white;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.form {
+    line-height: 1.8;
+}
+
+
+
+input[type=password],
+input[type=date],
+input[type=email],
+input[type=text]:focus {
+    outline: none !important;
+}
+
+@media (max-width:1200px) {
+    .menu {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-img,
+    .icon {
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        column-gap: 1rem;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .article {
+        padding-right: 5rem;
+        margin-bottom: 2rem;
+        font-size: 14px;
+        font-family: 'proxima-nova', sans-serif;
+    }
+
+    .policy img {
+        float: left;
+        height: auto;
+        width: 192px;
+        margin-bottom: 4rem;
+    }
+
+    footer i {
+        display: block;
+    }
+
+    .connect,
+    .About,
+    .support,
+    .shopourbrands,
+    .products {
+        display: none;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-family: 'din-2014', sans-serif;
+
+    }
+
+    .forms input[type="email"] {
+        height: 100%;
+        width: 100%;
+    }
+
+    .forms button[type=submit] {
+        padding: 1rem;
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .media-footer {
+        width: 100% !important;
+    }
+
+    .policy img {
+        float: left;
+        height: auto;
+        width: 192px;
+        margin-bottom: 4rem;
+    }
+
+    .products {
+        margin-bottom: 0;
+    }
+
+    .article {
+        padding-right: 5rem;
+        margin-bottom: 2rem;
+        font-size: 14px;
+        font-family: 'proxima-nova', sans-serif;
+    }
+
+    .shopbrands {
+        margin-bottom: 2rem;
+    }
+
+    .shopdealbtn {
+        width: 100%;
+    }
+
+    .shopdeal {
+        border-bottom: none;
+    }
+
+    .nav-opts {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .media-searchbar input {
+        width: calc(100% - 50px);
+        height: 2rem;
+        font-size: 1rem;
+        border: none;
+        background-color: #e5e5e5;
+        border-radius: 5px;
+        flex: 1;
+    }
+
+    .media-searchbar {
+        background-color: #e5e5e5;
+        border-radius: 5px;
+    }
+
+    .media-searchbar input:focus {
+        outline: none;
+    }
+
+    .media-nav-links-one a,
+    .media-nav-links-two a {
+        text-decoration: none;
+        font-size: 10px;
+        display: none;
+    }
+}
